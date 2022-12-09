@@ -9,3 +9,19 @@ git commit -m "<message>"
 git remote add origin <repo_link>
 
 git push -u origin master
+
+#Branch
+git branch <branch_name>
+git checkout <branch_name>
+
+git merge <branch_name>
+
+#to delete branch
+--Locally
+	git branch -d <branch_name>
+--remote
+	git push origin --delete <branch_name>
+
+
+
+
