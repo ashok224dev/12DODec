@@ -22,6 +22,15 @@ git merge <branch_name>
 --remote
 	git push origin --delete <branch_name>
 
+#tags:
+	Step 1: checkout the branch where you want to create the tag:
+	git checkout <branch_name>
+	
+	git tag <tag_name>
+	git tag -a <tag_name> -m <message>
 
+	git tag
+	git show <tag_name>
+	git tag -l "v1.*>
 
 
