@@ -33,4 +33,22 @@ git merge <branch_name>
 	git show <tag_name>
 	git tag -l "v1.*>
 
+	#To Delete
+	git tag -d <tag_name>
+
+	git push origin -d <tag_name>
+
+	Pushing tag:
+	git push origin <tag_name>
+	git push origin --tags
+
+	# tags from the past commit:
+	git log (copy the commit id)
+
+	git tag <tag_name> <commit_id>
+
+	git tag
+
+	git push --tags
+
 
